@@ -1,0 +1,108 @@
+
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img{
+    height: 100vh;
+    background-image: url("./images/carimg1.jpg");
+    background-size: cover;
+    background-color: aqua;
+}
+
+.nav{
+    background-color: red;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.nav2{
+   
+    
+    font-size: 20px;
+   
+    align-content: center;
+    height: 100%;
+    margin-right: 60px;
+   
+    color: white;
+
+    
+    
+}
+.nav1{
+    
+    
+    font-size: 20px;
+   
+    align-content: center;
+    height: 100%;
+    margin-right: 500px;
+}
+.logo{
+    border-color: black;
+    background-color: black;
+    width: 350px;
+    position: absolute;
+    top: 0px;
+    left: 80px;
+}
+.navbar{
+
+    display: flex;
+    margin-left: 1100px;
+   
+    
+
+}
+.buttons{
+
+    padding: 10px 15px; /* Adjust padding to increase size */
+    font-size: 15px;
+    margin-left: 35px;
+    background-color:white;
+    color:black;
+    border: none;
+    
+}
+.buttons:hover{
+     background-color: red;
+}
+.text1{
+    font-size: 30px;
+    margin-left: 250px;
+    color: white;
+}
+.text{
+    font-size: 100px;
+    position: absolute;
+    top: 420px;
+    left: 400px;
+    color: white;
+}
+.bot{
+    padding: 15px 25px;
+    position: absolute;
+    left: 400px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.bar{
+    position: absolute;
+    top: 69%;
+    left: 3%;
+}
+.bar1{
+    position: absolute;
+    left: 80%;
+    top: 57%;
+    overflow:hidden;
+    
+    height: 40vh;
+    width: 38vh;
+}
